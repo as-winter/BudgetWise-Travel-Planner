@@ -1,76 +1,58 @@
 # BudgetWise Travel Planner
 
-An AI-powered travel planning agent that helps budget-conscious travelers plan affordable trips with personalized itineraries and estimated travel expenses.
+**AI-powered budget travel planner agent**
 
 ## Overview
+BudgetWise Travel Planner is an AI-powered travel planning agent built using Python, uAgents, and ASI:One. It helps users plan trips according to their destination, duration, number of travelers, and budget.
 
-BudgetWise Travel Planner is built using Python, uAgents, and ASI:One. Users can provide their origin, destination, trip duration, number of travelers, and total budget.
+The agent compares available transportation options, estimates trip expenses, and generates a personalized day-wise itinerary.
 
-The agent compares available transport options, generates a day-wise itinerary, and provides an estimated cost breakdown to help users understand whether their trip fits within their budget.
+## Problem Statement
+Planning a trip within a fixed budget can be difficult because travelers need to compare transportation, accommodation, food, and activity costs manually.
 
-## Features
+## Solution
+BudgetWise uses an AI agent to understand travel requirements, estimate expenses using structured travel data, and generate a practical itinerary based on the user's budget.
 
-- **Transport Option Comparison:** Compares available transport options with estimated costs and travel durations for supported routes.
-- **Trip Cost Estimation:** Calculates estimated transportation, accommodation, food, and activity expenses.
-- **Personalized Itineraries:** Generates day-wise travel plans based on the user's destination and trip requirements.
-- **Budget Breakdown:** Shows the estimated total cost and remaining budget.
-- **Conversational Travel Planning:** Allows users to interact with the agent through ASI:One chat.
+## Key Features
+- Budget-based travel planning
+- Transportation option comparison for supported routes
+- Estimated trip cost calculation
+- Accommodation, food, and activity cost estimation
+- Budget status checking
+- Personalized day-wise itinerary
 
-## Technologies Used
+## How It Works
+1. User provides travel requirements.
+2. The agent understands the destination, duration, number of travelers, and budget.
+3. Available transportation and destination cost data are retrieved.
+4. The cost calculator estimates the total trip cost.
+5. The agent checks whether the trip fits within the budget.
+6. ASI:One generates a personalized itinerary.
 
+## Technology Stack
 - Python
 - uAgents
-- ASI:One
 - Agentverse
+- ASI:One
+- Structured travel data
 
-## Example
+## Project Status
+The agent has been implemented and tested through ASI:One. It supports travel planning, transport comparison for supported routes, estimated cost calculation, and itinerary generation.
 
-**User Request:**
+## Demo
+Demo video: [Add demo video URL]
 
-Plan a 2-day trip from Delhi to Jaipur for 2 travelers with a total budget of ₹8,000. Compare transport options, create a day-wise itinerary, and provide a detailed budget breakdown.
+## Screenshots
+Screenshots of the working agent and its generated travel budget will be included here.
 
-**Sample Estimated Budget:**
+## Team AIZ_13
+- Riya Thakur
+- Mehnaz
+- Anjali
 
-| Expense | Estimated Cost |
-|---|---:|
-| Transport | ₹1,800 |
-| Hotel | ₹700 |
-| Food | ₹2,000 |
-| Activities | ₹1,600 |
-| **Total** | **₹6,100** |
-| **Remaining Budget** | **₹1,900** |
-
-*These figures are illustrative estimates based on the project's sample data.*
-
-## Project Structure
-
-- `agent.py` — Agent entry point and protocol registration.
-- `protocols.py` — Handles travel planning conversations and requests.
-- `Travel_tools.py` — Contains transport data and budget calculation tools.
-- `http_client.py` — ASI:One API helper.
-
-## Setup and Usage
-
-The agent is configured and run through Agentverse.
-
-1. Configure the required ASI:One credentials in the Agentverse environment.
-2. Register and activate the agent.
-3. Open the agent through ASI:One.
-4. Enter a travel request with the origin, destination, duration, number of travelers, and budget.
-5. Review the generated itinerary and estimated budget breakdown.
-
-## Limitations
-
-- Travel costs are estimates based on predefined sample data and AI-generated recommendations, not live prices.
-- Transport options are available only for supported routes.
-- The agent does not book trips or fetch real-time flight or hotel availability.
-- Users should confirm actual fares and rates before making travel arrangements.
-
-## Links
-
-- **GitHub Repository:** https://github.com/as-winter/BudgetWise-Travel-Planner
-- **Agentverse Profile:** https://agentverse.ai/agents/details/agent1qfgg5w67vyfd32t6xme6msnjhh6myd9pcmfpx8j9h9nh564x8tluxze6daa/profile
-
-## Project Goal
-
-BudgetWise aims to make travel planning simpler, smarter, and more affordable by combining AI-generated recommendations with transparent budget calculations.
+## Future Scope
+- Real-time travel prices
+- Live transportation availability
+- Hotel and travel API integration
+- Weather-based recommendations
+- Actual booking integration
