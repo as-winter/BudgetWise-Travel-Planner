@@ -40,10 +40,12 @@ BudgetWise uses an AI agent to understand travel requirements, estimate expenses
 The agent has been implemented and tested through ASI:One. It supports travel planning, transport comparison for supported routes, estimated cost calculation, and itinerary generation.
 
 ## Demo
-Demo video: [Add demo video URL]
+Demo video:(https://youtu.be/Qqh882toeco?si=0DKxqTh2mRVGF4dJ)
 
-## Screenshots
-Screenshots of the working agent and its generated travel budget will be included here.
+## Screenshots## Screenshots
+Screenshots of the BudgetWise Travel Planner agent and its generated travel budget are available in the repository.
+
+
 
 ## Team AIZ_13
 - Riya Thakur
